@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "extensionsUsed": [
+        "KHR_gaussian_splatting"
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "KHR_gaussian_splatting:SCALE": 1,
+                        "KHR_gaussian_splatting:ROTATION": 1,
+                        "KHR_gaussian_splatting:SH_DEGREE_0_COEF_0": 1,
+                        "KHR_gaussian_splatting:_APPLICATION_DATA": 1,
+                        "KHR_gaussian_splatting:": 1,
+                        "EXT_undeclared:VALUE": 1,
+                        "UNKNOWN": 1
+                    },
+                    "targets": [
+                        {
+                            "KHR_gaussian_splatting:SCALE": 1,
+                            "KHR_gaussian_splatting:_APPLICATION_DATA": 1,
+                            "KHR_gaussian_splatting:": 1,
+                            "EXT_undeclared:VALUE": 1,
+                            "UNKNOWN": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "type": "VEC3",
+            "componentType": 5126,
+            "count": 3,
+            "min": [0, 0, 0],
+            "max": [1, 1, 1]
+        },
+        {
+            "type": "VEC2",
+            "componentType": 5126,
+            "count": 3
+        }
+    ]
+}

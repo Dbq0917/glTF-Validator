@@ -3,51 +3,51 @@
     "mimeType": "model/gltf+json",
     "validatorVersion": "2.0.0-dev.3.10",
     "issues": {
-        "numErrors": 21,
-        "numWarnings": 0,
+        "numErrors": 8,
+        "numWarnings": 13,
         "numInfos": 2,
         "numHints": 0,
         "messages": [
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_00"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_01"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/INVALID_"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/INVALID_1_1"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/INVALID_11"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/INVALID_D"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/"
             },
             {
@@ -59,37 +59,37 @@
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/1/primitives/0/targets/0/TEXCOORD_00"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/1/primitives/0/targets/0/TEXCOORD_01"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/1/primitives/0/targets/0/INVALID_"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/1/primitives/0/targets/0/INVALID_1_1"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/1/primitives/0/targets/0/INVALID_11"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/1/primitives/0/targets/0/INVALID_D"
             },
             {

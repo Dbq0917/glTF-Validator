@@ -189,6 +189,10 @@ class MeshPrimitive extends GltfProperty {
         return;
       }
 
+      if (context.isExtensionAttributeName(semantic)) {
+        return;
+      }
+
       switch (semantic) {
         case POSITION:
           hasPosition = true;
@@ -286,6 +290,10 @@ class MeshPrimitive extends GltfProperty {
     void checkMorphTargetAttributeSemanticName(String semantic) {
       // Skip custom semantics
       if (semantic.isNotEmpty && semantic.codeUnitAt(0) == 95 /*underscore*/) {
+        return;
+      }
+
+      if (context.isExtensionAttributeName(semantic)) {
         return;
       }
 

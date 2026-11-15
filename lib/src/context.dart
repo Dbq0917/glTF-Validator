@@ -217,6 +217,13 @@ class Context {
     }
   }
 
+  bool isExtensionAttributeName(String semantic) {
+    final colonIndex = semantic.indexOf(':');
+    return colonIndex > 0 &&
+        colonIndex < semantic.length - 1 &&
+        _extensionsUsed.contains(semantic.substring(0, colonIndex));
+  }
+
   void addIssue(IssueType issueType,
       {String name,
       List<Object> args,

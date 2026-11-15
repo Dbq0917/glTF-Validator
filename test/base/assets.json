@@ -208,6 +208,7 @@
             "custom_property.gltf": "Custom property",
             "empty_array.gltf": "Empty array",
             "empty_object.gltf": "Empty object",
+            "extension_attributes.gltf": "Extension and unknown attributes",
             "indices_bytestride.gltf": "Indices accessor with byte stride",
             "indices_invalid_format.gltf": "Indices accessor invalid format",
             "invalid_attribute.gltf": "Invalid attribute",

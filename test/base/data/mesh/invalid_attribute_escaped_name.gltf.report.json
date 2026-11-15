@@ -3,21 +3,21 @@
     "mimeType": "model/gltf+json",
     "validatorVersion": "2.0.0-dev.3.2",
     "issues": {
-        "numErrors": 2,
-        "numWarnings": 0,
+        "numErrors": 0,
+        "numWarnings": 2,
         "numInfos": 1,
         "numHints": 0,
         "messages": [
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/attributes/~0UNKNOWN~12"
             },
             {
                 "code": "MESH_PRIMITIVE_INVALID_ATTRIBUTE",
                 "message": "Invalid attribute name.",
-                "severity": 0,
+                "severity": 1,
                 "pointer": "/meshes/0/primitives/0/targets/0/~0UNKNOWN~12"
             },
             {

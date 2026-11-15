@@ -56,7 +56,7 @@
 |MESH_INVALID_WEIGHTS_COUNT|The length of weights array (`%1`) does not match the number of morph targets (`%2`).|Error|
 |MESH_PRIMITIVES_UNEQUAL_TARGETS_COUNT|All primitives must have the same number of morph targets.|Error|
 |MESH_PRIMITIVE_INDEXED_SEMANTIC_CONTINUITY|Indices for indexed attribute semantic '`%1`' must start with 0 and be continuous. Total expected indices: `%2`, total provided indices: `%3`.|Error|
-|MESH_PRIMITIVE_INVALID_ATTRIBUTE|Invalid attribute name.|Error|
+|MESH_PRIMITIVE_INVALID_ATTRIBUTE|Invalid attribute name.|Warning|
 |MESH_PRIMITIVE_JOINTS_WEIGHTS_MISMATCH|Number of JOINTS attribute semantics (`%1`) does not match the number of WEIGHTS (`%2`).|Error|
 |MESH_PRIMITIVE_NO_POSITION|No POSITION attribute found.|Warning|
 |MESH_PRIMITIVE_TANGENT_WITHOUT_NORMAL|TANGENT attribute without NORMAL found.|Warning|

@@ -371,7 +371,9 @@ class SemanticError extends IssueType {
       Severity.Warning);
 
   static final SemanticError meshPrimitiveInvalidAttribute = SemanticError._(
-      'MESH_PRIMITIVE_INVALID_ATTRIBUTE', (args) => 'Invalid attribute name.');
+      'MESH_PRIMITIVE_INVALID_ATTRIBUTE',
+      (args) => 'Invalid attribute name.',
+      Severity.Warning);
 
   static final SemanticError meshPrimitivesUnequalTargetsCount =
       SemanticError._(

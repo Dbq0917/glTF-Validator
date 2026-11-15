@@ -12,6 +12,10 @@
 
 * Changed `NODE_SKINNED_MESH_NON_ROOT` default severity to Information.
 
+* Changed `MESH_PRIMITIVE_INVALID_ATTRIBUTE` default severity to Warning.
+
+* Added support for extension-prefixed attribute names.
+
 ### Integration updates
 
 * CLI tool now outputs assets with errors in sorted order when validating a directory.
